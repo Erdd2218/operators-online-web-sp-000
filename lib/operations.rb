@@ -8,7 +8,7 @@ def not_safe?(speed)
     return true
   else
     speed < 40 
-    return false
+    return true
   end 
 end
 
